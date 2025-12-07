@@ -23,7 +23,7 @@
         "    name: conda-env-quarto-python-py\n",
         "---"
       ],
-      "id": "dfb9cb93"
+      "id": "67ec3122"
     },
     {
       "cell_type": "code",
@@ -31,7 +31,7 @@
       "source": [
         "#pip install tabulate"
       ],
-      "id": "3ad57758",
+      "id": "2af2ec2a",
       "execution_count": null,
       "outputs": []
     },
@@ -43,7 +43,7 @@
         "from IPython.display import Markdown, display\n",
         "from tabulate import tabulate"
       ],
-      "id": "5d8e4d60",
+      "id": "85de1f91",
       "execution_count": null,
       "outputs": []
     },
@@ -72,7 +72,7 @@
         "\n",
         "# Results\n",
         "\n",
-        "![](../results/horse_pops_plot.png)\n",
+        "![Horse Populations Plot](../results/horse_pops_plot.png)\n",
         "\n",
         "Figure 1: Horse populations for all provinces in Canada from 1906 - 1972.\n",
         "\n",
@@ -91,7 +91,7 @@
         "\n",
         "Table 1. Standard deviation of historical (1906-1972) horse populations for each Canadian province.\n"
       ],
-      "id": "6810b494"
+      "id": "1b0effbc"
     },
     {
       "cell_type": "code",
@@ -101,7 +101,7 @@
         "largest_sd = horses_sd_table['Province'].values[0]\n",
         "Markdown(horses_sd_table.to_markdown(index = False))"
       ],
-      "id": "faad0a92",
+      "id": "a0f6155c",
       "execution_count": null,
       "outputs": []
     },
@@ -123,7 +123,7 @@
         "\n",
         "# References\n"
       ],
-      "id": "1363a69c"
+      "id": "71515595"
     }
   ],
   "metadata": {

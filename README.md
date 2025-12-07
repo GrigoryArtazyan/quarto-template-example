@@ -37,10 +37,20 @@ Copy and paste that URL into your browser.
 open a terminal (in the docker jupyter lab) and run the following commands:
 
 ```
-python scripts/generate_figures.py --input_dir="data/00030067-eng.csv" \
-    --out_dir="results"
+#Run the Python script to generate figures:
+
+python scripts/generate_figures.py --input_dir="data/00030067-eng.csv" --out_dir="results"
+
+
+#Render the Quarto report:
+
+#HTML version:
 
 quarto render reports/qmd_example.qmd --to html
+
+
+#PDF version:
+
 quarto render reports/qmd_example.qmd --to pdf
 ```
 
